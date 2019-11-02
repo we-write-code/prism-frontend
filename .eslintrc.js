@@ -13,5 +13,11 @@ module.exports = {
   ],
   // add your custom rules here
   rules: {
+    semi: ['error', 'always'],
+    'vue/html-self-closing': ['error', {
+      'html': {
+        'normal': 'never',
+      }
+    }]
   }
 };
