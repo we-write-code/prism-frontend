@@ -73,6 +73,7 @@ export default {
       }
     }
   },
+  srcDir: 'prism/',
   /*
   ** Build configuration
   */
