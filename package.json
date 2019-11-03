@@ -14,8 +14,11 @@
   "dependencies": {
     "@nuxt/typescript-runtime": "^0.2.2",
     "@nuxtjs/axios": "^5.3.6",
+    "lodash": "^4.17.15",
     "nuxt": "^2.0.0",
-    "nuxt-property-decorator": "^2.5.0"
+    "nuxt-property-decorator": "^2.5.0",
+    "vue-rx": "^6.2.0",
+    "vue-rx-decorators": "^0.0.8"
   },
   "devDependencies": {
     "@nuxt/typescript-build": "^0.3.2",
