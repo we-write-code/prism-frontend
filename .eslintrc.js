@@ -20,6 +20,11 @@ module.exports = {
       'html': {
         'normal': 'never',
       }
+    }],
+    "space-before-function-paren": ['error', {
+      anonymous: "always",
+      named: "never",
+      asyncArrow: "always"
     }]
   }
 };
