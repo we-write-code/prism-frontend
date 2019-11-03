@@ -9,11 +9,13 @@ module.exports = {
   },
   extends: [
     '@nuxtjs',
+    '@nuxtjs/eslint-config-typescript',
     'plugin:nuxt/recommended'
   ],
   // add your custom rules here
   rules: {
     semi: ['error', 'always'],
+    'comma-dangle': ['error', 'always-multiline'],
     'vue/html-self-closing': ['error', {
       'html': {
         'normal': 'never',
