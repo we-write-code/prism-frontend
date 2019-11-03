@@ -21,10 +21,15 @@ module.exports = {
         'normal': 'never',
       }
     }],
-    "space-before-function-paren": ['error', {
+    'space-before-function-paren': ['error', {
       anonymous: "always",
       named: "never",
       asyncArrow: "always"
-    }]
+    }],
+    'vue/component-name-in-template-casing': ['error', 'PascalCase'],
+    'vue/html-closing-bracket-newline': ['error', {
+      'singleline': 'never',
+      'multiline': 'never'
+    }],
   }
 };
