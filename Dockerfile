@@ -12,5 +12,7 @@ RUN set -x \
 
 WORKDIR /prism
 
+COPY . .
+
 ENTRYPOINT ["/bin/sh", "/entrypoint.sh"]
 CMD ["yarn", "dev"]
