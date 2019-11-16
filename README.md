@@ -2,21 +2,10 @@
 
 This is where the front of the prism resides (＊◕ᴗ◕＊)
 
-## Build Setup
+## Dev Environment setup
 
-``` bash
-# install dependencies
-$ yarn install
-
-# serve with hot reload at localhost:3000
-$ yarn dev
-
-# build for production and launch server
-$ yarn build
-$ yarn start
-
-# generate static project
-$ yarn generate
-```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+- Install docker & docker-compose
+    - Linux: https://docs.docker.com/install/linux/docker-ce/debian/ & https://docs.docker.com/compose/install/
+    - Windows: https://docs.docker.com/docker-for-windows/install/
+- Run `docker-compose up` to start the whole environment
+- Server is available under http://127.0.0.1:3000
