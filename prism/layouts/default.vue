@@ -88,6 +88,10 @@ class Default extends Vue {
   clipped = false;
   drawer = false;
   fixed = false;
+  miniVariant = false;
+  right = true;
+  rightDrawer = false;
+  title = 'Vuetify.js';
   items = [
     {
       icon: 'mdi-apps',
@@ -100,10 +104,6 @@ class Default extends Vue {
       to: '/inspire',
     },
   ];
-  miniVariant = false;
-  right = true;
-  rightDrawer = false;
-  title = 'Vuetify.js';
 }
 export default Default;
 

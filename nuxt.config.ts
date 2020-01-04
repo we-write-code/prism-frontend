@@ -81,6 +81,11 @@ export default {
       eslint: true,
     },
   },
+  sass: {
+    sassOptions: {
+      indentedSyntax: true,
+    },
+  },
   /*
   ** Build configuration
   */

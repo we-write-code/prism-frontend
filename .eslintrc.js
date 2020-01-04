@@ -17,8 +17,8 @@ module.exports = {
     semi: ['error', 'always'],
     'comma-dangle': ['error', 'always-multiline'],
     'vue/html-self-closing': ['error', {
-      'html': {
-        'normal': 'never',
+      html: {
+        normal: 'never',
       }
     }],
     'space-before-function-paren': ['error', {
@@ -28,8 +28,11 @@ module.exports = {
     }],
     'vue/component-name-in-template-casing': ['error', 'PascalCase'],
     'vue/html-closing-bracket-newline': ['error', {
-      'singleline': 'never',
-      'multiline': 'never'
+      singleline: 'never',
+      multiline: 'never'
     }],
+    'lines-between-class-members': ['error', 'always', {
+      exceptAfterSingleLine: true
+    }]
   }
 };
