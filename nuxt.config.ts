@@ -31,6 +31,7 @@ export default {
   */
   plugins: [
     'plugins/rx',
+    'plugins/mdi',
   ],
   /*
   ** Nuxt.js dev-modules
@@ -73,6 +74,10 @@ export default {
           success: colors.green.accent3,
         },
       },
+    },
+    defaultAssets: false,
+    icons: {
+      iconfont: 'mdi',
     },
   },
   srcDir: 'prism/',

@@ -21,6 +21,7 @@
     "vue-rx-decorators": "^0.0.8"
   },
   "devDependencies": {
+    "@mdi/font": "^4.7.95",
     "@nuxt/typescript-build": "^0.5.3",
     "@nuxtjs/eslint-config-typescript": "^1.0.0",
     "@nuxtjs/eslint-module": "^1.0.0",
